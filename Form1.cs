@@ -144,8 +144,6 @@ namespace HOLD_AND_WRITE
             return motherNode;
         }
 
-
-        //for items/chars/places
         public void GetFileNodes(ref TreeNode mother, string path, string mainFolderName)
         {
             if (Directory.GetFiles(path).Length > 0)
